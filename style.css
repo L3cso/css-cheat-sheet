@@ -1,0 +1,110 @@
+body {
+    background-color: lightgray;
+}
+
+.code {
+    font-family: monospace;
+    background-color: white;
+}
+
+table {
+    border: 2px solid darkblue;
+    border-collapse: separate;
+    margin: auto;
+}
+
+td {
+    border-top: 1px solid darkblue;
+}
+
+th {
+    background-color: darkblue;
+    color: white;
+    font-size: 18px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+table caption {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#color {
+    color: red;
+}
+
+#textalign {
+    text-align: center;
+}
+
+#textdecoration {
+    text-decoration: line-through;
+}
+
+#texttransformation {
+    text-transform: uppercase;
+}
+
+#lineheight {
+    line-height: 20px;
+    text-align: left
+}
+
+#letterspacing {
+    letter-spacing: 5px;
+}
+
+#fontfamily {
+    font-family: fantasy;
+}
+
+#fontsize {
+    font-size: 10px;
+}
+
+#fontweight {
+    font-weight: bold;
+}
+
+#fontstyle {
+    font-style: italic;
+}
+
+
+#backgroundcolor {
+    background-color: violet;
+}
+
+#backgroundimage {
+    background-image: url('./pattern.jpeg');
+    color: white;
+}
+
+#backgroundrepeat {
+    background-image: url('./pattern2.jpg');
+    background-repeat: repeat;
+    color: white;
+}
+
+#backgroundposition {
+    background-image: url('./pattern2.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#unorganisedlist {
+    list-style-type: square;
+}
+
+ul, ol {
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+#organisedlist {
+    list-style-type: lower-greek;
+}
